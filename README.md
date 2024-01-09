@@ -6,4 +6,38 @@ Nonetheless, it communicates the data to a mobile application via WiFi, which ca
 
 ## SENSORS
 We have used Flex sensor to measure force applied by the patient and an analog based Infrared sensor to determine the linear distance jaws have moved.
-![alt text](force sensor.jpeg)
+
+
+![Force sensor](https://github.com/DJIITBH/TRISEASE/blob/main/force%20sensor.jpg)
+
+![IR sensor](https://github.com/DJIITBH/TRISEASE/blob/main/Screenshot%20from%202024-01-09%2014-56-27.png)
+
+## CODE 
+We have used an ESP32 MCU to send the sensor's data to a mobile application using IOT. 
+We used Thingspeak platform by Matlab for data storage and used API's to extract and represent the data in our mobile application for monitoring.
+The code can be accessed from the INO file uploaded.
+
+## Data Analysis
+We used multivariate data analysis to calliberate the force and IR sensor's data into meaningful quantities and developed an efficient formulation to find accurate measurements.
+The code has been uploaded.
+
+## The device
+#Early Stage:
+First we developed a CAD model of the device and 3D printed the design and started integration of sensors in it.
+
+![Device](https://github.com/DJIITBH/TRISEASE/blob/main/device1.jpeg)
+
+Then after the calliberation, we made the circuit on a PCB and soldered the connections.
+
+![Device](https://github.com/DJIITBH/TRISEASE/blob/main/device2.jpeg)
+
+
+Here's the video of the device demonstrating the working:
+
+
+[Video demonstration](https://youtu.be/JsGlxQTOuuI)
+
+
+
+
+
