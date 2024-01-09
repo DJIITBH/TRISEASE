@@ -6,4 +6,4 @@ Nonetheless, it communicates the data to a mobile application via WiFi, which ca
 
 ## SENSORS
 We have used Flex sensor to measure force applied by the patient and an analog based Infrared sensor to determine the linear distance jaws have moved.
-![alt text](force sensor.jpg)
+![alt text](force sensor.jpeg)
